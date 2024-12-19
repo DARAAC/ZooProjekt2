@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import "./Home.css"
+import News from "./News.jsx"
 
 function Home() {
     const [startDate, setStartDate] = useState('');
@@ -21,11 +23,7 @@ function Home() {
             </div>
 
             {/* News */}
-            <div className="news">
-                <h3>News</h3>
-                <div className="news-placeholder">📰 Aktuelle Neuigkeiten</div>
-            </div>
-
+           < News/>
             {/* Tickets */}
             <div className="ticket-section">
                 <h3>Tickets buchen</h3>

@@ -1,0 +1,16 @@
+.news-page {
+    overflow-y: auto;
+}
+
+.Untertitel {
+    font-family: Helvetica, Arial, sans-serif;
+    font-stretch: normal;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 20px;    
+}
+
+.News-Text {
+    margin-top: 25px;
+    margin-left: 20px;
+}

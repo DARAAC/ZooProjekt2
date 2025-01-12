@@ -1,31 +1,34 @@
-import React from 'react';
+import React from "react";
 import Navigation from "./Navigation.jsx";
-{/*import {
-    MapContainer,
-    TileLayer,
-} from 'https://cdn.esm.sh/react-leaflet'
+import ZooMap from "../assets/ZooMap.png";  // Path to your map image
+import "./Map.css";
 
-*/}
 function Map() {
-   // const position = [47.384558308396365, 8.574392906925931];
-
     return (
         <div className="map">
-            <Navigation></Navigation>
+            <Navigation />
             <div className="logo">
                 <img src="src/assets/logo.png" alt="Zoo Logo" />
             </div>
             <h3>Zoo Karte & Anreise</h3>
+            {/* Important note */}
+            <div className="important-note">
+                <h4>Wichtige Hinweise!</h4>
+                <p>Wir bauen am Zoo der Zukunft. Bitte beachten Sie unsere Baustelleninfos und unsere Hinweise zu temporären Einschränkungen.</p>
+                <button className="inform-button">Informieren</button>
+            </div>
 
-            { /*<MapContainer center={position} zoom={13} scrollWheelZoom={false}>
-                <TileLayer
-                    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                />
-            </MapContainer>,*/}
-
+            {/* Zoo map image */}
             <div className="map-image">
-                <img src="src/assets/map.png" alt="Statische Zoo Karte" style={{ width: '50%', marginTop: '10px' }} />
+                <img src={ZooMap} alt="ZooMap" />
+            </div>
+
+            {/* Download link for the PDF */}
+            <div className="download-section">
+                <p>Herunterladen:</p>
+                <a href="https://www.zoo.ch/sites/default/files/media/file/Zooplan_A4_web_241212.pdf" target="_blank" rel="noopener noreferrer">
+                    <button className="download-button">Zooplan (PDF)</button>
+                </a>
             </div>
         </div>
     );

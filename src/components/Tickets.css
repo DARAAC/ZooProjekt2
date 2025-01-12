@@ -1,0 +1,94 @@
+.Tickets {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Category-Box1, .Category-Box2 {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    color: #990000;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+  }
+  
+  th {
+    background-color: #990000;
+    color: white;
+  }
+  
+  td {
+    background-color: white;
+  }
+  
+  a {
+    color: #990000;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style for the button */
+  button {
+    background-color: #990000;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #d22a2a;
+  }
+  
+  /* Styles for links and general layout in tables */
+  td.row1-clm1, td.row2-clm1, td.row3-clm1, td.row4-clm1, td.row5-clm1, td.row6-clm1, td.row7-clm1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Category box container style for better layout */
+  .Category-Box1, .Category-Box2 {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .Category-Box1 a, .Category-Box2 a {
+    margin-left: 20px;
+  }
+  
+  /* For making the table cleaner */
+  td {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  tr:hover {
+    background-color: #f9f9f9;
+  }

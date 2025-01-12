@@ -1,0 +1,119 @@
+.ticket-form-container {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative; /* Wird benötigt, damit das sticky funktioniert */
+}
+
+h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-size: 16px;
+  color: #333;
+}
+
+input,
+select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="number"] {
+  width: 80px;
+}
+
+input[type="date"] {
+  width: 200px;
+}
+
+/* Sticky Button Style */
+button {
+  background-color: #e63946;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+  position: sticky; /* Make the button sticky */
+  bottom: 20px; /* Position the button 20px from the bottom of the container */
+  z-index: 10; /* Ensure it stays above other content */
+}
+
+button:hover {
+  background-color: #d12f39;
+}
+
+.nature-check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nature-check input {
+  width: auto;
+}
+
+.nature-check label {
+  font-size: 14px;
+  color: #555;
+}
+
+p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 20px;
+}
+.total-price {
+  font-size: 18px;
+  color: #333;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.back-to-home-button {
+  text-decoration: none; /* Entfernt die Standard-Untertellung von Links */
+  margin-top: 20px;
+}
+
+.back-to-home-button button {
+  background-color: #6c757d;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; /* Button nimmt die volle Breite ein */
+  transition: background-color 0.3s;
+}
+
+.back-to-home-button button:hover {
+  background-color: #5a636a;
+}
+

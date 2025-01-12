@@ -4,8 +4,10 @@ import NewsPage2 from './components/Newspages/NewsPage2';
 import ZooApp from './components/ZooApp'
 import Tickets from "./components/Tickets.jsx";
 import Shop from "./components/Shop.jsx";
+import Ticketkauf from './components/Ticketkauf.jsx';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ProductDetail from "./components/ProductDetail.jsx";
+import Map from './components/Map.jsx'
 
 
 function App() {
@@ -17,7 +19,9 @@ function App() {
           <Route path='/news/2' element={<NewsPage2 />}/>
           <Route path='/ZooApp' element={<ZooApp />}/><Route path='/Shop' element={<Shop />}/>
           <Route path='/Tickets' element={<Tickets />}/>
+          <Route path='/Map' element={<Map />}/>
           <Route path="/Shop" element={<Shop />} />
+          <Route path='/Ticketkauf' element={<Ticketkauf />}/>
           <Route path="/product/:id" element={<ProductDetail />} />
         </Routes>
       </Router>

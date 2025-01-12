@@ -4,6 +4,59 @@
 }
 
 .map-image img {
-    width: 50%;
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 20px;
+}
+
+.important-note {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.important-note h4 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.important-note p {
+    font-size: 16px;
+}
+
+.inform-button {
+    background-color: #e63946;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
     margin-top: 10px;
+}
+
+.inform-button:hover {
+    background-color: #d12f39;
+}
+
+.download-section {
+    margin-top: 30px;
+}
+
+.download-button {
+    background-color: #e63946;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.download-button:hover {
+    background-color: #d12f39;
 }

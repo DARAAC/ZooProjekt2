@@ -1,11 +1,11 @@
 .Banner-container {
     position: relative;
     max-width: 100%;
-    max-height: 500px;
     margin: auto;
 }
 
-.Picture {
+.Picture img {
     width: 100%;
     height: auto;
+    border-radius: 8px;
 }

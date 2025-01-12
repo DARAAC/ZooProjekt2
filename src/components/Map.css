@@ -1,0 +1,9 @@
+.map {
+    text-align: center;
+    padding: 2rem;
+}
+
+.map-image img {
+    width: 50%;
+    margin-top: 10px;
+}

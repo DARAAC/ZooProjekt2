@@ -1,0 +1,37 @@
+.ZooApp {
+    text-align: center;
+    padding: 2rem;
+}
+
+.Buttons-App {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.Button-Android, .Button-IOS {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.Button-Android {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.Button-Android:hover {
+    background-color: #45a049;
+}
+
+.Button-IOS {
+    background-color: #007AFF;
+    color: white;
+}
+
+.Button-IOS:hover {
+    background-color: #005BB5;
+}

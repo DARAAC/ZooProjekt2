@@ -4,10 +4,12 @@ import News from "./News.jsx";
 import './News.css';
 import Slideshow from "./Slideshow.jsx"
 import { Link } from 'react-router-dom';
+import Navigation from "./Navigation.jsx";
 
 function Home() {
     return (
         <div className="home">
+            <Navigation></Navigation>
             {/* Logo */}
             <div className="logo">
             < Link to='/'>

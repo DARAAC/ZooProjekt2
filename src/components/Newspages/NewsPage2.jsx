@@ -6,6 +6,7 @@ import Swan from './headerSwan.jpg';
 import './Newspage.css'
 import NewsHeader from './NewsHeader.jsx'
 import './NewsHeader.css'
+import Navigation from "../Navigation.jsx";
 
 
 function NewsPage2() {
@@ -16,6 +17,7 @@ function NewsPage2() {
   return (
 <div className="news-page">
     {/* Logo */}
+    <Navigation></Navigation>
     <div className="logo">
         < Link to='/'>
         <img src='/src/assets/logo.png' alt="Zoo Logo"/>

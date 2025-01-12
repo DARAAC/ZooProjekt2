@@ -1,4 +1,5 @@
 import React from 'react';
+import Navigation from "./Navigation.jsx";
 {/*import {
     MapContainer,
     TileLayer,
@@ -10,6 +11,7 @@ function Map() {
 
     return (
         <div className="map">
+            <Navigation></Navigation>
             <div className="logo">
                 <img src="src/assets/logo.png" alt="Zoo Logo" />
             </div>

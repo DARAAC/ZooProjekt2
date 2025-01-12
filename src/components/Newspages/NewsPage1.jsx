@@ -1,8 +1,9 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+import {Link, Navigate} from "react-router-dom";
 import Banner from "../Banner.jsx";
 import Rhino from "./headerRhino.jpg";
 import NewsHeader from "./NewsHeader.jsx";
+import Navigation from "../Navigation.jsx";
 
 function NewsPage1() {
 
@@ -11,6 +12,7 @@ function NewsPage1() {
 
     return (
         <div className="news-page">
+            <Navigation></Navigation>
             {/* Logo */}
             <div className="logo">
                 < Link to='/'>

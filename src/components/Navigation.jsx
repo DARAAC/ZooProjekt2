@@ -1,13 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-function Navigation({ onNavigate }) {
+function Navigation() {
     return (
         <nav className="navigation">
-            <button onClick={() => onNavigate('home')}>🏠</button>
-            <button onClick={() => onNavigate('map')}>🗺️</button>
-            <button onClick={() => onNavigate('shop')}>🛒</button>
+            <Link to="/">🏠</Link>
+            <Link to="/Map">🗺️</Link>
+            <Link to="/Shop">🛒</Link>
+            <Link to="/ZooApp">🦁 </Link>
+            <Link to="/Tickets">🎫 </Link>
         </nav>
     );
 }
-
 export default Navigation;

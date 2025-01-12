@@ -1,6 +1,6 @@
 import React from "react";
 import Navigation from "./Navigation.jsx";
-import ZooMap from "../assets/ZooMap.png";  // Path to your map image
+import ZooMap from "../assets/ZooMap.png";
 import "./Map.css";
 
 function Map() {
@@ -11,19 +11,16 @@ function Map() {
                 <img src="src/assets/logo.png" alt="Zoo Logo" />
             </div>
             <h3>Zoo Karte & Anreise</h3>
-            {/* Important note */}
             <div className="important-note">
                 <h4>Wichtige Hinweise!</h4>
                 <p>Wir bauen am Zoo der Zukunft. Bitte beachten Sie unsere Baustelleninfos und unsere Hinweise zu temporären Einschränkungen.</p>
                 <button className="inform-button">Informieren</button>
             </div>
 
-            {/* Zoo map image */}
             <div className="map-image">
                 <img src={ZooMap} alt="ZooMap" />
             </div>
 
-            {/* Download link for the PDF */}
             <div className="download-section">
                 <p>Herunterladen:</p>
                 <a href="https://www.zoo.ch/sites/default/files/media/file/Zooplan_A4_web_241212.pdf" target="_blank" rel="noopener noreferrer">

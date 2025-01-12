@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
   }
-  
   .Category-Box1, .Category-Box2 {
     background-color: #f2f2f2;
     padding: 20px;
@@ -49,7 +48,6 @@
     text-decoration: underline;
   }
   
-  /* Style for the button */
   button {
     background-color: #990000;
     color: white;
@@ -66,14 +64,12 @@
     background-color: #d22a2a;
   }
   
-  /* Styles for links and general layout in tables */
   td.row1-clm1, td.row2-clm1, td.row3-clm1, td.row4-clm1, td.row5-clm1, td.row6-clm1, td.row7-clm1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
   
-  /* Category box container style for better layout */
   .Category-Box1, .Category-Box2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -83,7 +79,6 @@
     margin-left: 20px;
   }
   
-  /* For making the table cleaner */
   td {
     font-size: 16px;
     line-height: 1.5;

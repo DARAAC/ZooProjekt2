@@ -6,7 +6,7 @@
   background-color: #f9f9f9;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  position: relative; /* Wird benötigt, damit das sticky funktioniert */
+  position: relative; 
 }
 
 h1 {
@@ -49,7 +49,6 @@ input[type="date"] {
   width: 200px;
 }
 
-/* Sticky Button Style */
 button {
   background-color: #e63946;
   color: white;
@@ -60,9 +59,9 @@ button {
   cursor: pointer;
   margin-top: 20px;
   transition: background-color 0.3s;
-  position: sticky; /* Make the button sticky */
-  bottom: 20px; /* Position the button 20px from the bottom of the container */
-  z-index: 10; /* Ensure it stays above other content */
+  position: sticky; 
+  bottom: 20px; 
+  z-index: 10; 
 }
 
 button:hover {
@@ -97,7 +96,7 @@ p {
 }
 
 .back-to-home-button {
-  text-decoration: none; /* Entfernt die Standard-Untertellung von Links */
+  text-decoration: none; 
   margin-top: 20px;
 }
 
@@ -109,7 +108,7 @@ p {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  width: 100%; /* Button nimmt die volle Breite ein */
+  width: 100%; 
   transition: background-color 0.3s;
 }
 

@@ -11,7 +11,6 @@ function Tickets() {
     return(
         <div className="Tickets">
             <Navigation/>
-            {/* Logo */}
             <div className="logo">
                 <img src='/src/assets/logo.png' alt="Zoo Logo"/>
             </div>     

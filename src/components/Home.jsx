@@ -11,7 +11,6 @@ function Home() {
     return (
         <div className="home">
             <Navigation></Navigation>
-            {/* Logo */}
             <div className="logo">
                 < Link to='/'>
                     <img src="src/assets/logo.png" alt="Zoo Logo"/>

@@ -1,0 +1,66 @@
+.opening-hours-container {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 50%;
+    margin: 20px auto;
+}
+
+.opening-hours-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333333;
+    text-decoration: underline;
+}
+
+.opening-hours-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.season {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.summer {
+    color: #333333;
+}
+
+.winter {
+    color: #333333;
+}
+
+.season-title {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ffe600;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: #333333;
+}
+
+.winter .season-title {
+    background-color: #00c8ff;
+}
+
+.season-time {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #555555;
+}
+
+.separator {
+    width: 2px;
+    height: 40px;
+    background-color: #cccccc;
+    margin: 0 10px;
+}

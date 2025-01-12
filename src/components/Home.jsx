@@ -5,6 +5,7 @@ import './News.css';
 import Slideshow from "./Slideshow.jsx"
 import { Link } from 'react-router-dom';
 import Navigation from "./Navigation.jsx";
+import OpeningHours from "./Openinghours.jsx";
 
 function Home() {
     return (
@@ -12,16 +13,26 @@ function Home() {
             <Navigation></Navigation>
             {/* Logo */}
             <div className="logo">
-            < Link to='/'>
-                <img src="src/assets/logo.png" alt="Zoo Logo"/>
-            </Link>
+                < Link to='/'>
+                    <img src="src/assets/logo.png" alt="Zoo Logo"/>
+                </Link>
             </div>
             <div>
-            < Slideshow />
+                < Slideshow/>
+            </div>
+            <div className='Oeffnungszeiten-section'>
+                <OpeningHours/>
             </div>
             <div className='news-section'>
                 <h1 className='news-title'>Zoo News</h1>
-                <News />
+                <News/>
+                <div className='Tickets-section'>
+                    <h1 className='Tickets-Text'>Buche jetzt deinen Besuch!</h1>
+                    < Link to='/Tickets'>
+                        <button className="Tickets-Button">Ticket Kaufen</button>
+                    </Link>
+                </div>
+
             </div>
         </div>
     );

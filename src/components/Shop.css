@@ -1,28 +1,33 @@
 .shop {
+    padding: 20px;
     text-align: center;
-    padding: 2rem;
+    font-family: Arial, sans-serif;
 }
 
 .shop-items {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
+    gap: 20px;
 }
 
 .item {
-    text-align: center;
-    padding: 1rem;
-    background-color: #f0f0f0;
+    background: white;
+    border: 1px solid #ddd;
     border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    width: 150px;
+    transition: transform 0.2s ease;
 }
 
 .item img {
-    width: 100px;
-    height: 100px;
-    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
 }
 
-.item p {
-    margin-top: 10px;
-    font-weight: bold;
+.item:hover {
+    transform: scale(1.05);
 }

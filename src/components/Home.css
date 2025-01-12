@@ -5,10 +5,20 @@
 .news-section {
     padding: 40px 20px;
     background-color: #f9f9f9;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .news-title {
     font-size: 3rem;
-    margin-bottom: 30px;
+    margin-top: 10px;
+
+    margin-bottom: 20px;
+}
+.Tickets-Button { background-color: #3498db;
+color: white;
+padding: 10px;
+border: none;
+cursor: pointer;
+border-radius: 8px;
+margin-bottom: 30px;
 }

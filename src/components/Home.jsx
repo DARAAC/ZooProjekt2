@@ -5,6 +5,7 @@ import './News.css';
 import Slideshow from "./Slideshow.jsx"
 import { Link } from 'react-router-dom';
 
+
 function Home() {
     return (
         <div className="home">
@@ -21,6 +22,17 @@ function Home() {
                 <h1 className='news-title'>Zoo News</h1>
                 <News />
             </div>
+            <div className='Oeffnungszeiten-section'>
+                <h1 className='Oeffnungszeiten-Titel'>Öffnungszeiten</h1>
+                {/*Mach da wiiter simon*/}
+            </div>
+            <div className='Tickets-section'>
+                <h1 className='Tickets-Text'>Buche jetzt deinen Besuch!</h1>
+                < Link to='/Tickets'>
+                    <button className="Tickets-Button">Ticket Kaufen</button>
+                </Link>
+            </div>
+           
         </div>
     );
 }

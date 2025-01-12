@@ -36,7 +36,6 @@ function App() {
           <Route path='/ZooApp' element={<ZooApp />}/>
           {/* Andere Routen für zmbsp. Map oder Shop */}
         </Routes>
-        <Navigation />
       </Router>
     );
 }

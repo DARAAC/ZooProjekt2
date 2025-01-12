@@ -2,6 +2,7 @@ import Banner from './Banner.jsx'
 import {Link} from 'react-router-dom';
 import ZooAppBild from '../assets/header-zooapp.png'
 import Navigation from "./Navigation.jsx";
+import './ZooApp.css'
 import React from "react";
 
 function ZooApp() {

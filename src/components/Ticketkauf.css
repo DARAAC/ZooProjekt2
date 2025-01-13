@@ -59,9 +59,8 @@ button {
   cursor: pointer;
   margin-top: 20px;
   transition: background-color 0.3s;
-  position: sticky; 
-  bottom: 20px; 
-  z-index: 10; 
+  bottom: 20px;
+  z-index: 10;
 }
 
 button:hover {
